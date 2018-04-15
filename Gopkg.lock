@@ -3,19 +3,67 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/armon/go-socks5"
+  name = "github.com/getlantern/context"
   packages = ["."]
-  revision = "e75332964ef517daa070d7c38a9466a0d687e0a5"
+  revision = "624d99b1798d7c5375ea1d3ca4c5b04d58f7c775"
 
 [[projects]]
   branch = "master"
-  name = "golang.org/x/net"
-  packages = ["context"]
-  revision = "61147c48b25b599e5b561d2e9c4f3e1ef489ca41"
+  name = "github.com/getlantern/errors"
+  packages = ["."]
+  revision = "e9c0296368b736086adb20832549567064224854"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/getlantern/go-socks5"
+  packages = ["."]
+  revision = "79d4dd3e2db581c4f31d170662ea44c454109a9c"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/getlantern/golog"
+  packages = ["."]
+  revision = "cca714f7feb5df8e455f409b549d384441ac4578"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/getlantern/hex"
+  packages = ["."]
+  revision = "083fba3033ad473db3dd31c9bb368473d37581a7"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/getlantern/hidden"
+  packages = ["."]
+  revision = "d52a649ab33af200943bb599898dbdcfdbc94cb7"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/getlantern/netx"
+  packages = ["."]
+  revision = "06a8a15aede91b4274bb0272108e16a4eabeca19"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/getlantern/ops"
+  packages = ["."]
+  revision = "37353306c90844c8e0591956f56611f46299d202"
+
+[[projects]]
+  name = "github.com/getlantern/stack"
+  packages = ["."]
+  revision = "ac4c579c437a23e1a15814c867ccb82122fb383b"
+  version = "v1.5.0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/oxtoacart/bpool"
+  packages = ["."]
+  revision = "4e1c5567d7c2dd59fa4c7c83d34c2f3528b025d6"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "63d8fb890eb328e68231016bc5b8b3c04d0f99a70e12e0b8350b02e02c27c046"
+  inputs-digest = "9dee80dfe772fdb20ac375e6585ad5707bdbe00512ecf7f5b0e59fdf4492cad1"
   solver-name = "gps-cdcl"
   solver-version = 1

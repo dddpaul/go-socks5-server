@@ -27,7 +27,7 @@
 
 [[constraint]]
   branch = "master"
-  name = "github.com/armon/go-socks5"
+  name = "github.com/getlantern/go-socks5"
 
 [prune]
   go-tests = true

@@ -1,9 +1,8 @@
 package main
 
 import (
-	"github.com/armon/go-socks5"
+	"github.com/getlantern/go-socks5"
 	"os"
-	"log"
 )
 
 func main() {
@@ -14,7 +13,6 @@ func main() {
 
 	conf := &socks5.Config{
 		AuthMethods: []socks5.Authenticator{auth},
-		Logger:      log.New(os.Stdout, "", log.LstdFlags),
 	}
 
 	server, err := socks5.New(conf)

@@ -1,7 +1,7 @@
 .PHONY: all build release
 
 IMAGE=dddpaul/socks5-proxy
-VERSION=1.0
+VERSION=1.1
 
 all: build
 
