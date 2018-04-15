@@ -1,4 +1,4 @@
-FROM golang:1.9.2 as builder
+FROM golang:1.10.1 as builder
 WORKDIR /go/src/github.com/dddpaul/socks5-server
 ADD . ./
 RUN make build-alpine
